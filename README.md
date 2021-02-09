@@ -13,8 +13,8 @@ A gold-standard dataset comprising ~12k unique tweets from seven events: the Jor
 There is a folder for each event containing the following:<br>
 a) tweet IDs and their assigned labels.<br>
 b) list of the query terms and collection dates.<br>
-c) IDs for train and test sets.<br>
-d) annotation instructions
+c) tweet IDs for train and test sets.<br>
+d) annotation instructions.
 
 ## Rehydrating Tweets (for research purposes)
 To comply with [Twitter’s policies](https://developer.twitter.com/en/developer-terms/agreement-and-policy), only tweet IDs are published. You can retrieve complete Tweets Objects using hydration tools such as [Twarc](https://github.com/DocNow/twarc) or [Hydrator](https://github.com/DocNow/hydrator).
