@@ -6,15 +6,15 @@ The Kawarith corpus comprises Arabic tweets from 22 crisis events that occurred 
 
 ## Repository Structure
 1. Unlabelled Corpus: 
-A large-scale crisis-related Arabic Twitter corpus of 1,658,795 unique tweets from 22 emergency events. Each text file contains tweet IDs collected during a specific crisis.
+A large-scale crisis-related Arabic Twitter corpus of 1,658,795 unique tweets from 22 emergency events. <br>
+Each folder contains tweet IDs collected during a specific crisis along with query terms and collection dates.
 
 2. Labelled Data: 
 A gold-standard dataset comprising ~12k unique tweets from seven events: the Jordan floods, Kuwait floods-18, Hafr Albatin floods-19, the Cairo bombing, the Dragon storms, the Beirut explosion and Covid-19. Apart from Covid-19, which was labelled by relatedness to the event, tweets were annotated in terms of information type in a multi-label schem. 
 There is a folder for each event containing the following:<br>
 a) tweet IDs and their assigned labels.<br>
-b) list of the query terms and collection dates.<br>
-c) tweet IDs for train and test sets.<br>
-d) annotation instructions.
+b) tweet IDs for train and test sets.<br>
+c) annotation instructions (for Jordan floods).
 
 3. Stop-words: this folder includes two files<br>
 a) a list of 405 domain-independent multi-dialect Arabic stop words.<br>
