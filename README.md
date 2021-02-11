@@ -16,10 +16,14 @@ b) list of the query terms and collection dates.<br>
 c) tweet IDs for train and test sets.<br>
 d) annotation instructions.
 
+3. Stop-words: this folder includes two files<br>
+a) a list of 405 domain-independent multi-dialect Arabic stop words.<br>
+b) a lsit of 1177 Arabic stop-words after adding the multi-dialect list to the NLTK and [Alrefaie’s](https://github.com/mohataher/arabic-stop-words) lists. 
+
 ## Rehydrating Tweets (for research purposes)
 To comply with [Twitter’s policies](https://developer.twitter.com/en/developer-terms/agreement-and-policy), only tweet IDs are published. You can retrieve complete Tweets Objects using hydration tools such as [Twarc](https://github.com/DocNow/twarc) or [Hydrator](https://github.com/DocNow/hydrator).
 
-## How to cite this dataset:
+## How to cite this resources:
 ```
 BibTeX:
 ```
